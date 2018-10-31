@@ -59,7 +59,9 @@ public class Test extends JFrame{
 		protected void paintComponent(Graphics g) {
 			// TODO Auto-generated method stub
 			super.paintComponent(g);
-		    new Ball(10, 10).draw(g);
+		   
+			// TestVersion-1
+			new Ball(10, 10).draw(g);
 		    new Ball(20, 20).draw(g);
 		}
 
